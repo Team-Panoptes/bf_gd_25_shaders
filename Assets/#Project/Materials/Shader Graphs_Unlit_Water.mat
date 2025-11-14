@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Foam_Texture:
+        m_Texture: {fileID: 2800000, guid: ff4cb629febb7c64a8a0e0eaa124a3a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,7 +56,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth_Fade_Distance: 2
+    - _Foam_Distortion: 1.2
     - _Horizon_Power: 2.93
+    - _Intersection_Foam_Depth: 1.07
     - _QueueControl: 1
     - _QueueOffset: 0
     - _Refraction_Scale: 0.1
@@ -60,6 +66,7 @@ Material:
     - _Refraction_Strength: 0.01
     m_Colors:
     - _Deep_Color: {r: 0.15001374, g: 0.45913416, b: 0.7735849, a: 0}
+    - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Horizon_Color: {r: 0.8641509, g: 0.17489377, b: 0.108879276, a: 1}
     - _Shallow_Color: {r: 0.19369364, g: 0.90990984, b: 1, a: 0.06666667}
   m_BuildTextureStacks: []
