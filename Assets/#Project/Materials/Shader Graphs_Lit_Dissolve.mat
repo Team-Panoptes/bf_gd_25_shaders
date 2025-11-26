@@ -56,7 +56,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Border_Width: 0.1
-    - _Dissolution: 0.224
+    - _Dissolution: 0.612
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
