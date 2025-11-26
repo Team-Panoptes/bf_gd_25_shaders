@@ -26,7 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -37,8 +37,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Triplanar_a923d03a76d548cfb6f9808572c030ea_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ff4cb629febb7c64a8a0e0eaa124a3a5, type: 3}
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: fdf231631ea5cfa4cb087a7f996f7cb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 3c26a834b21aab74889db3434c68dfc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Normals:
+        m_Texture: {fileID: 2800000, guid: eb90a8a2c19eff34999f13936a9a9c78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Texture:
+        m_Texture: {fileID: 2800000, guid: d05ce23cf399fc448a5d6a6fb19149f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,8 +67,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Blend: 5
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Tile: 1
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
